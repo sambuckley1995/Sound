@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>SoundsColor</title>
-	<link rel="stylesheet" href="circles.css">
-	<script src="paper.js/paper-full.js" type="text/javascript"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.js" type="text/javascript"></script>
-	<script type=text/paperscript canvas="myCanvas">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>SoundsColor</title>
+		<link rel="stylesheet" href="circles.css">
+		<script src="paper.js/paper-full.js" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.js"
+			type="text/javascript"></script>
+		<script type=text/paperscript canvas="myCanvas">
 	
 	var keyData = {
 
@@ -196,16 +197,20 @@ q: {
 			console.log(circles)
 		}
 	}
-  
-	
-		
+	</script>
+	<style>
+	h1 { 
+		color:white;
+		position:absolute;
+	}
+	body {
+		display:flex;
+	}
+		</style>
+	</head>
+	<body>
+		<h1>Press any letter key on the keyboard</h1>
+		<canvas id="myCanvas"></canvas>
 
-  </script>
-
-</head>
-<body>
-    
-	<canvas id="myCanvas"></canvas>
-
-</body>
+	</body>
 </html>
